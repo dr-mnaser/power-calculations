@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #006883;
+    color: white; /* This changes the default text color to white */
+}
+
+#app {
+    background: #006883;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: fit-content;
+}
+
+input[type="number"] {
+    margin-bottom: 5px;
+    font-family: inherit;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #d33682;
+    background-color: #586e75;
+    color: white; /* This changes the default text color to white */
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    background-color: #d33682;
+    color: #fafafa;
+    padding: 5px;
+}
+button:hover {
+            background-color: #c02570;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #007395; /* Slightly lighter than main bg for contrast */
+            color: #fafafa;
+            border-radius: 10px;
+        }
